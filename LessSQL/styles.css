@@ -1,0 +1,60 @@
+body {
+    background-image: url('lessSQLbackGround.png');
+    background-repeat: no-repeat;
+    width: fit-content;
+    background-size: cover;
+}
+
+.text{
+  font-family: 'Trebuchet MS';
+  color: rgb(255, 255, 255);
+  position: absolute;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-family: 'Trebuchet MS';
+  margin: 4px 2px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  position: absolute;
+  z-index: 2;
+}
+
+.button1 {
+  background-color: rgb(219, 114, 245); 
+  color: black;
+  border-radius: 10px;
+  border-width: 5px;
+}
+
+.button1:hover {
+  background-color: #00a3bf;
+  color: white;
+  border: #00a3bf
+}
+
+.footer{
+  position: absolute; 
+  top: 720px;
+  left: 0px;   
+  width: 100%;
+  height: 80px;
+  background-color: rgb(44, 44, 44);
+  color: rgb(224, 224, 224);
+}
+
+.paragraph{
+  display: block;
+  height: 220px;
+  width: 570px;
+  background-color: #00a3bf;
+  position: absolute;
+  color: rgb(255, 255, 255)
+}
